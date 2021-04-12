@@ -20,7 +20,7 @@ try:
     message = """\
     Subject: Greetings
 
-    Hi, Have a nice day."""
+    Hi Akku, Have a nice day."""
     # TODO: Send email here
     server.sendmail(sender_email, 'sidharthsoumya@gmail.com', message)
 except Exception as e:
